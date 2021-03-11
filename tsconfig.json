@@ -3,6 +3,8 @@
     "target": "ES2017",
     "emitDeclarationOnly": true,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   }
 }
