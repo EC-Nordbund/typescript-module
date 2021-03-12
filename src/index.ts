@@ -47,9 +47,6 @@ const mod: Module<TransformOptions> = function (
       test: /\.((m?jsx?)|(ts))$/,
       use: [
         {
-          loader: './modules/es.js',
-        },
-        {
           loader: 'esbuild-loader',
           options: options,
         },

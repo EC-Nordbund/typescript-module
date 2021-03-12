@@ -1,5 +1,4 @@
 import esbuild from "rollup-plugin-esbuild";
-import { terser } from "rollup-plugin-terser";
 
 export default {
   input: {
@@ -9,7 +8,6 @@ export default {
     dir: 'dist'
   },
   plugins: [
-    esbuild(),
-    terser()
+    esbuild()
   ]
 }
