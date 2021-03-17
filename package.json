@@ -34,6 +34,7 @@
     "esbuild-loader": "^2.9.2"
   },
   "peerDependencies": {
-    "nuxt": ">=2.15"
+    "nuxt": ">=2.15",
+    "webpack": "4"
   }
 }
